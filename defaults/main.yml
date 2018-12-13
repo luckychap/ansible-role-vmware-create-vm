@@ -1,0 +1,30 @@
+vcenter_hostname: ""
+vcenter_user: ""
+vcenter_pwd: ""
+vcenter_port: 443
+vcenter_datacenter: ""
+
+esxi_hostname: ""
+
+vm_name: ""
+vm_template: ""
+vm_state: "present"
+vm_guest_id: ""
+vm_disk_size_gb: ""
+vm_disk_type: ""
+vm_disk_datastore: ""
+vm_ram_mb: ""
+vm_cpu: ""
+vm_cpu_cores_per_socket: ""
+vm_ip: ""
+
+ntw_name: ""
+ntw_gateway: ""
+ntw_mask: ""
+ntw_dns_ips:
+- ""
+ntw_domain: ""
+ntw_wol: false
+ntw_connected: true
+
+wait_for_vm_ip: true
